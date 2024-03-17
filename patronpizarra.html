@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PATRON DE PIZARRA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilos2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#Descripcion">Descripción</a>
+                <a href="#UTILIDAD">Utilidad</a>
+                <a href="#VENTAJAS">Ventajas y Desventajas</a>
+                <a href="#Referencias">Referencias</a>
+            
+            
+                <div class="logouni">
+                    <img src="img/logo_U.png" alt="" class="IMGLOGO">
+                </div>
+            </nav>
+            
+            <section class="textos-header">
+                <h1 class="portada">Arquitectura De Software</h1>
+
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C137.41,146.55 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffff;"></path></svg></div>
+        </header>
+        <section class="contenedor descripcion" id="Descripcion">
+            <h2 class="titulo">PATRÓN DE PIZARRA </h2>
+            <div class="contenedor-descripcion">
+                <img src="img/pizarra.png" alt="" class="imagen-descripcioncs">
+                <div class="contenido-textosc">
+                    <p>Es un patrón arquitectónico también conocido como "board" en inglés, es un enfoque utilizado en el desarrollo de aplicaciones que implican la manipulación y visualización de datos de manera dinámica, similar a una pizarra física donde se pueden agregar, mover y borrar elementos fácilmente y el cual consta de 3 elementos principales.</P>
+                    <p><b>Pizarra:  </b> Una memoria global estructurada que contiene objetos del espacio de solución. </p>
+                    <p><b>Fuente de conocimiento:  </b> Módulos especializados con su propia representación.</p>
+                    <p><b>Capa de acceso a datos (DAL): </b> Selecciona, configura y ejecuta módulos. </p>  
+                                               
+                </div>
+            </div>
+        </section>
+        <section class="utilidad contenedor" id="UTILIDAD">
+            <div class="contenedor-utilidad">               
+                <div class="contenido-utilidad">
+                    <h3>UTILIDAD</h3>
+                    <h4><span>1</span>Sistemas de reconocimiento de voz.</h4>
+                    <h4><span>2</span>Sistemas de inteligencia artificial.</h4>
+                    <h4><span>3</span>Sistemas de diagnóstico medico.</h4>
+                    <h4><span>4</span>Sistemas de planificación y control.</h4>
+                    <h3>EJEMPLO</h3>
+                    <p>Un ejemplo de la utilidad del patrón de arquitectura de pizarra es una aplicación de pizarra virtual colaborativa, similar a las utilizadas en entornos educativos, empresariales o de diseño.</p>                             
+                    </div>
+                    <img src="img/ejemplopizarra.jpg" alt="" class="imagen-utilidad">
+            </div>
+        </section>
+        <div class="venydesven contenedor" id="VENTAJAS">
+            <h2 class="titulo">Ventajas & Desventajas</h2>
+            <div class="tarjeta">
+                <div class="tarje">
+                    <div class="contenido-texto-tarjeta">
+                        <h4>VENTAJAS</h4>
+                        <Ul>
+                            <Li>Colaboración en Tiempo Real.</Li>
+                            <Li>Interactividad. </Li>
+                            <Li>Flexibilidad. </Li>
+                            <Li>Visibilidad Global. </Li>
+                        </Ul>
+                    </div>
+                </div>
+                <div class="tarje">
+                    <div class="contenido-texto-tarjeta">
+                        <h4>DESVENTAJAS</h4>
+                        <Ul>
+                            <Li>Sincronización Compleja. </Li>
+                            <Li>Dependencia de la Conectividad. </Li>
+                            <Li>Seguridad.</Li>
+                            <Li>Complejidad de Implementación.</Li>
+                        </Ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="contenedor-footer" id="Referencias">
+                <div class="contec-foo">
+                    <h4>REFERENCIAS</h4>
+                    <p>Contreras, D. a. B. (2018b, March 7). Arquitectura de Microservicios. <a href="https://revistas.udistrital.edu.co/index.php/tia/article/view/9687"> https://revistas.udistrital.edu.co/index.php/tia/article/view/9687</p></a>
+                    <P>colaboradores de Wikipedia. (2023, February 2). Patrones de arquitectura. Wikipedia, La Enciclopedia Libre.<a href="https://es.wikipedia.org/wiki/Patrones_de_arquitectura">https://es.wikipedia.org/wiki/Patrones_de_arquitectura</P></a>
+                    <P>Huaman, W. C. (2018, September 7). Los 10 patrones comunes de arquitectura de software. Medium.<a href="https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b">https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b</P></a>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Weitsner Alexis Carrillo Cruz | Yulith Daniela Chavez Diaz</h2>
+        </footer>
+    </body>
+</html>

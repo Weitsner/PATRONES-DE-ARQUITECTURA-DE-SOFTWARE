@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PATRON DE CAPAS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="estilos2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#Descripcion">Descripción</a>
+                <a href="#UTILIDAD">Utilidad</a>
+                <a href="#VENTAJAS">Ventajas y Desventajas</a>
+                <a href="#Referencias">Referencias</a>
+
+                <div class="logouni">
+                    <img src="img/logo_U.png" alt="" class="IMGLOGO">
+                </div>
+            </nav>
+            
+            <section class="textos-header">
+                <h1 class="portada">Arquitectura De Software</h1>
+
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C137.41,146.55 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffff;"></path></svg></div>
+        </header>
+        <section class="contenedor descripcion" id="Descripcion">
+            <h2 class="titulo">PATRÓN DE CAPAS </h2>
+            <div class="contenedor-descripcion">
+                <img src="img/capas.jpg" alt="" class="imagen-descripcioncs">
+                <div class="contenido-textosc">
+                    <p>Es un patrón arquitectónico que se puede utilizar para estructurar programas donde las diferentes 
+                        partes o componentes del sistema se organizan en capas distintas, cada capa tiene una responsabilidad 
+                        específica y se comunica únicamente con las capas adyacentes, siguiendo una estructura jerárquica.</P>
+                    <p>Las 4 capas más comúnmente encontradas de un sistema de información general son las siguientes:</p>
+                    <p><b>Capa de presentación (UI): </b> Esta capa es la interfaz de usuario del sistema. Se encarga de interactuar con los usuarios, mostrar datos y recoger información del usuario. </p>
+                    <p><b>Capa de lógica de negocio (o de dominio): </b> Esta capa contiene la lógica central del negocio o la aplicación. Aquí se implementan las reglas del negocio, algoritmos, validaciones de datos y cualquier otro proceso relacionado con la lógica de la aplicación.</p>
+                    <p><b>Capa de acceso a datos (DAL): </b> Esta capa es responsable de interactuar con la base de datos u otros sistemas de almacenamiento de datos. </p>  
+                    <p><b>Capa de aplicación (o de servicios):  </b> Esta capa proporciona servicios reutilizables que pueden ser utilizados por diferentes partes del sistema.</p>                                   
+                </div>
+            </div>
+        </section>
+        <section class="utilidad contenedor" id="UTILIDAD">
+            <div class="contenedor-utilidad">               
+                <div class="contenido-utilidad">
+                    <h3>UTILIDAD</h3>
+                    <h4><span>1</span>Aplicaciones web.</h4>
+                    <h4><span>2</span>Aplicaciones móviles.</h4>
+                    <h4><span>3</span>Sistemas embebidos.</h4>
+                    <h4><span>4</span>Sistemas empresariales.</h4>
+                    <h3>EJEMPLO</h3>
+                    <p>Un ejemplo de cómo se puede utilizar el patrón de capas es en el diseño de una aplicación web de comercio electrónico la cual se puede estructurar utilizando tres capas principales: capa de presentación, capa de lógica de negocio y capa de acceso a datos.</p>                             
+                    </div>
+                    <img src="img/ejemplocapas.jpg" alt="" class="imagen-utilidad">
+            </div>
+        </section>
+        <div class="venydesven contenedor" id="VENTAJAS">
+            <h2 class="titulo">Ventajas & Desventajas</h2>
+            <div class="tarjeta">
+                <div class="tarje">
+                    <div class="contenido-texto-tarjeta">
+                        <h4>VENTAJAS</h4>
+                        <Ul>
+                            <Li>Modularidad.</Li>
+                            <Li>Facilita el desarrollo colaborativo. </Li>
+                            <Li>Reutilización de código. </Li>
+                            <Li>Escalabilidad. </Li>
+                        </Ul>
+                    </div>
+                </div>
+                <div class="tarje">
+                    <div class="contenido-texto-tarjeta">
+                        <h4>DESVENTAJAS</h4>
+                        <Ul>
+                            <Li>Overhead de comunicación. </Li>
+                            <Li>Acoplamiento. </Li>
+                            <Li>Posible sobrediseño.</Li>
+                        </Ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="contenedor-footer" id="Referencias">
+                <div class="contec-foo">
+                    <h4>REFERENCIAS</h4>
+                    <p>Contreras, D. a. B. (2018b, March 7). Arquitectura de Microservicios. <a href="https://revistas.udistrital.edu.co/index.php/tia/article/view/9687"> https://revistas.udistrital.edu.co/index.php/tia/article/view/9687</p></a>
+                    <P>colaboradores de Wikipedia. (2023, February 2). Patrones de arquitectura. Wikipedia, La Enciclopedia Libre.<a href="https://es.wikipedia.org/wiki/Patrones_de_arquitectura">https://es.wikipedia.org/wiki/Patrones_de_arquitectura</P></a>
+                    <P>Huaman, W. C. (2018, September 7). Los 10 patrones comunes de arquitectura de software. Medium.<a href="https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b">https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b</P></a>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Weitsner Alexis Carrillo Cruz | Yulith Daniela Chavez Diaz</h2>
+        </footer>
+    </body>
+</html>
